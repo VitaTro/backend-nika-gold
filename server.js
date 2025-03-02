@@ -6,8 +6,7 @@ const swaggerUi = require("swagger-ui-express");
 const swaggerDocument = require("./swagger-resolved.json");
 const passportConfig = require("./src/config/config-passport");
 const { cloudinary, storage } = require("./src/config/cloudinary");
-const multer = require("multer");
-const upload = multer({ storage: storage });
+
 const app = require("./App");
 
 dotenv.config();
