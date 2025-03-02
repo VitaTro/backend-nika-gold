@@ -11,7 +11,7 @@ const app = require("./App");
 
 dotenv.config();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 6543;
 
 mongoose
   .connect(process.env.MONGODB_URI)
